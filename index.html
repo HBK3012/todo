@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HBK the mass</title>
+    <link rel="stylesheet" href="HbkTodoApp.css">
+    <script  defer src="HbkTodoApp.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div style="display: flex;justify-content: space-between;align-items:center;">
+      <div class="web_title">TODO WEBSITE</div>
+      <div id="body_div"class="body_div">
+        <label class="switch">
+          <input class="switch_input" type="checkbox"/>
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+
+    <div id="input_div" class="input_div">
+      <input type="text" class="text_input" id="text_input" placeholder="Enter the Todo to be added " >
+      <input type="date" class="date_input" id ="date_input">
+      <button id="add_button" >Add Todo</button>
+    </div>
+  </body>
+</html>
