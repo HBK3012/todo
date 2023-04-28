@@ -69,7 +69,7 @@ div,input,button{
   gap: 8px 12px;
 }
 .web_title{
-  font-size:21px;
+  font-size:12px;
   font-family:roboto, Arial, Helvetica, sans-serif;
 }
 .text_input::placeholder{
