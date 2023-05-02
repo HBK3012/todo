@@ -198,6 +198,7 @@ div,input,button{
   border-style: solid;
   display: flex;
   align-items: center;
+  font-size: 30px;
 }
 .edit_todo_input::placeholder{
     font-family: roboto, Arial, Helvetica, sans-serif;
